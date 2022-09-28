@@ -475,7 +475,7 @@
 	});
 
 	// Buy Now Btn
-    $('body').append("<a href='https://themeforest.net/checkout/84128059/payment_method?_ga=2.130110991.1035807767.1645331073-1425290503.1590986634' class='buy-now-btn' target='_blank'><img src='assets/img/envato.png' alt='envato'/></a>");
+    // $('body').append("<a href='https://themeforest.net/checkout/84128059/payment_method?_ga=2.130110991.1035807767.1645331073-1425290503.1590986634' class='buy-now-btn' target='_blank'><img src='assets/img/envato.png' alt='envato'/></a>");
 	
 	// Preloader
     $(window).on('load', function () {
@@ -491,13 +491,13 @@ function setTheme(themeName) {
 	document.documentElement.className = themeName;
 }
 // function to toggle between light and dark theme
-function toggleTheme() {
-	if (localStorage.getItem('theme') === 'theme-dark') {
-		setTheme('theme-light');
-	} else {
-		setTheme('theme-dark');
-	}
-}
+// function toggleTheme() {
+// 	if (localStorage.getItem('theme') === 'theme-dark') {
+// 		setTheme('theme-light');
+// 	} else {
+// 		setTheme('theme-dark');
+// 	}
+// }
 // Immediately invoked function to set the theme on initial load
 (function () {
 	if (localStorage.getItem('theme') === 'theme-dark') {
