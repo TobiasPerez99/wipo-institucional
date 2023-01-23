@@ -994,7 +994,7 @@ Main Banner CSS
 }
 
 .main-banner .hero-content h1 {
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 500;
   margin-bottom: 20px;
 }
@@ -3877,7 +3877,7 @@ Ready To Talk CSS
 .ready-to-talk {
   text-align: center;
   position: relative;
-  padding-top: 80px;
+  padding-top: 0;
   padding-bottom: 160px;
   background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
 }
@@ -4214,6 +4214,9 @@ Partner CSS
   display: block;
   margin-top: 25px;
   position: relative;
+}
+.partner-section .partner-inner img {
+  border-radius: 5px;
 }
 
 .partner-section .partner-inner a img:last-child {
@@ -11047,5 +11050,19 @@ Auth Area CSS
     -webkit-transform: scale(2);
             transform: scale(2);
   }
+}
+
+.separator-bar{
+    margin-top: 10px;
+    border-top: 1px solid #d8ebfd;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.price-disclaimer{
+  font-size: 15px; 
+  margin: 20px;
+  font-weight: 400;
 }
 /*# sourceMappingURL=style.css.map */
