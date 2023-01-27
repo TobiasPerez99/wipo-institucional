@@ -1509,6 +1509,11 @@ Boxes CSS
           box-shadow: 0 0 10px rgba(72, 69, 224, 0.1);
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;    
 }
 
 .single-box .icon {
